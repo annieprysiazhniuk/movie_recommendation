@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&display=swap');
+
+html,
+body,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #7f0920;
+    color: #0a0408;
+    font: 400 18px 'Agdasima', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 97%;
+    margin: 0 auto;
+}
+
+.main-content {
+    text-align: center;
+}
+
+h1 {
+    margin: 50px 0;
+    font-size: 50px;
+}
+
+h1,
+.subtitle {
+    color: #fff;
+    letter-spacing: 5px;
+}
+
+select#genre {
+    width: 300px;
+    height: 40px;
+    margin: 30px 0;
+    background: rgba(0, 0, 0, 0.2);
+    color: #fff;
+    padding: 0 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.movie-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.movie-item {
+    width: 290px;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(255 255 255 / 25%);
+    color: #fff;
+    letter-spacing: 5px;
+    font-size: 16px;
+}
